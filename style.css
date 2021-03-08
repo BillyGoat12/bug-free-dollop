@@ -1,3 +1,23 @@
 body {
   background-color: #ffffff;
 }
+.navbar {
+  display: flex;
+  flex-flow: row;
+}
+
+.navbar__rightLinks {
+  text-decoration: none;
+  color: #151515;
+  margin-left: 2vw;
+}
+
+.navbar__rightLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.navbar__right {
+  margin-top: 3vh;
+  margin-left: 14vw;
+}
