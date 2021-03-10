@@ -26,3 +26,66 @@ body {
   margin-top: 3vh;
   margin-left: 4vw;
 }
+
+.iconShare {
+  margin-left: 1vw;
+}
+
+.iconShare:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.Gallery {
+  display: none;
+}
+
+.navbar__rightLinks:hover + .Gallery {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 15%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.Gallery:hover {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 15%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.Blog {
+  display: none;
+}
+
+.navbar__rightLinks:hover + .Blog {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 26%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.Blog:hover {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 26%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.dropBox__rightLinks {
+  text-decoration: none;
+  color: #151515;
+}
+
+.dropBox__rightLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
