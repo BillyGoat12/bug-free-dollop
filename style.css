@@ -130,6 +130,10 @@ body {
 
 /* -----------Footer       */
 
+.footer-column-1{
+  display: inline-block;
+}
+
 footer {
   width: 100%;
   background-color: #16222c;
@@ -146,9 +150,14 @@ footer {
 
 .footer-heading {
   padding-left: 30pt;
+  display: inline-block;
+  font-size: 30px;
+  color: purple;
 }
 
-.footer-address {
-  padding-left: 30pt;
-  grid-column: right;
+.footer-address  {
+  padding-left: 10pt;
+  display: inline-block; margin-right: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
