@@ -1,6 +1,9 @@
 body {
   background-color: #ffffff;
 }
+
+
+/* Navbar */
 .navbar {
   display: flex;
   flex-flow: row;
@@ -122,4 +125,30 @@ body {
   text-decoration: none;
   color: #151515;
   margin-left: 2vw;
+}
+
+
+/* -----------Footer       */
+
+footer {
+  width: 100%;
+  background-color: #16222c;
+  padding: 60px 0px;
+}
+
+.footer-paragraph {
+  font-size: 17px;
+  display: block;
+  color:gray;
+  padding-left: 30pt;
+  padding-right: 1000pt;
+}
+
+.footer-heading {
+  padding-left: 30pt;
+}
+
+.footer-address {
+  padding-left: 30pt;
+  grid-column: right;
 }
