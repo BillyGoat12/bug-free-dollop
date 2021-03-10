@@ -2,7 +2,6 @@ body {
   background-color: #ffffff;
 }
 
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -72,6 +71,7 @@ body {
   margin-left: 26%;
   outline-style: solid;
   outline-color: gray;
+  background-color: white;
 }
 
 .Blog:hover {
@@ -86,11 +86,13 @@ body {
 .dropBox__rightLinks {
   text-decoration: none;
   color: #151515;
+  background-color: white;
 }
 
 .dropBox__rightLinks:hover {
   text-decoration: underline;
   text-decoration-color: blue;
+  background-color: white;
 }
 
 .Page {
@@ -101,36 +103,61 @@ body {
   display: flex;
   flex-direction: row;
   position: fixed;
-  margin-left: 26%;
   outline-style: solid;
   outline-color: gray;
+  background-color: white;
+  width: 99%;
+  left: 0.5%;
 }
 
 .Page:hover {
   display: flex;
   flex-direction: row;
   position: fixed;
-  margin-left: 26%;
   outline-style: solid;
   outline-color: gray;
+  background-color: white;
+  width: 99%;
+  left: 0.5%;
 }
 
 .divider {
   border-left: 1px solid #38546d;
   border-right: 1px solid #16222c;
-  height: 80px;
+  height: 280px;
 }
 
 .dropBox__Page {
   text-decoration: none;
   color: #151515;
-  margin-left: 2vw;
+  width: 33%;
+  margin-left: 2%;
+  display: flex;
 }
 
+.dropBox__Page {
+  display: flex;
+  flex-flow: column;
+}
 
+.pageRow {
+  display: flex;
+  flex-flow: row;
+}
+
+.pageColumn {
+  display: inline;
+  flex-flow: column;
+}
+
+.pageColumn2 {
+  display: inline;
+  flex-flow: column;
+  margin-left: 15%;
+}
 /* -----------Footer       */
 
-.footer-column-1{
+.footer-column-1 {
   display: inline-block;
 }
 
@@ -143,7 +170,7 @@ footer {
 .footer-paragraph {
   font-size: 17px;
   display: block;
-  color:gray;
+  color: gray;
   padding-left: 30pt;
   padding-right: 1000pt;
 }
@@ -155,9 +182,10 @@ footer {
   color: purple;
 }
 
-.footer-address  {
+.footer-address {
   padding-left: 10pt;
-  display: inline-block; margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -165,5 +193,4 @@ footer {
 .line {
   margin-right: 1290px;
   margin-left: 40px;
- 
 }
