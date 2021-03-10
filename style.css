@@ -89,3 +89,37 @@ body {
   text-decoration: underline;
   text-decoration-color: blue;
 }
+
+.Page {
+  display: none;
+}
+
+.navbar__rightLinks:hover + .Page {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  margin-left: 26%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.Page:hover {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  margin-left: 26%;
+  outline-style: solid;
+  outline-color: gray;
+}
+
+.divider {
+  border-left: 1px solid #38546d;
+  border-right: 1px solid #16222c;
+  height: 80px;
+}
+
+.dropBox__Page {
+  text-decoration: none;
+  color: #151515;
+  margin-left: 2vw;
+}
