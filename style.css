@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -292,6 +294,38 @@ fieldset {
 
 /* Footer Column 3 */
 
-.column-3 {
+#column-3 a {
 text-decoration: none;
+color: #FFF;
+line-height: 1.7em;
+}
+
+#column-3 ul, h1 {
+  list-style: none;
+  color: gray;
+  font-size: 1.0em;
+}
+
+#column-3 {
+  padding: 2.0em;
+  margin: 0.0em;
+  font-size: 2.0em;
+  padding-top: 1.0em;
+}
+
+#column-3 a:hover {
+color: purple;
+}
+
+
+.rights{
+  text-align: center;
+  color: #38546d;
+  padding-bottom: 0.3em;
+  margin: 3.2em;
+}
+
+.rights a {
+  color: #38546d;
+  text-decoration: none;
 }
