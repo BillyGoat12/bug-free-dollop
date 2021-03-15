@@ -163,6 +163,14 @@ body {
   flex-flow: column;
   margin-left: 15%;
 }
+
+
+/* Blog Section */
+#blog-post h2 {
+  text-align: center;
+}
+
+
 /* -----------Footer       */
 
 footer {
@@ -314,7 +322,7 @@ line-height: 1.7em;
 }
 
 #column-3 a:hover {
-color: purple;
+color: #a096f8;
 }
 
 
