@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +12,13 @@ body {
 .navbar {
   display: flex;
   flex-flow: row;
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.header {
+  height: 9vh;
 }
 
 .navbar__rightLinks {
@@ -164,12 +169,47 @@ body {
   margin-left: 15%;
 }
 
-
-/* Blog Section */
-#blog-post h2 {
+.background {
+  height: 550px;
+  background-image: url(https://ld-wt73.template-help.com/wt_prod-18959/images/slider-1-slide-1-1770x742.jpg);
+  background-size: cover;
   text-align: center;
 }
 
+.backgroundH1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 2;
+  color: #151515;
+  text-transform: capitalize;
+  letter-spacing: 0.024em;
+  word-spacing: 0.05em;
+}
+
+.backgroundH3 {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #151515;
+}
+
+.button {
+  margin-top: 2vh;
+  color: #ffffff;
+  background-color: #756aee;
+  border-color: #756aee;
+  display: inline-block;
+  min-width: 200px;
+  padding: 17px 33px 15px;
+  font-size: 16px;
+  line-height: 1.34;
+  border: 2px solid;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 /* -----------Footer       */
 
@@ -237,13 +277,12 @@ footer {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  
 }
 
 /* Footer Form */
 
 #form {
-  background: 🕶 ;
+  background: 🕶;
   padding: 25px;
   margin: 10px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -276,16 +315,14 @@ fieldset {
   padding: 20px;
   font-size: 1em;
   font-weight: bold;
-  
 }
-
 
 #form button[type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
   background: #a096f8;
-  color: #FFF;
+  color: #fff;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
@@ -298,35 +335,37 @@ fieldset {
   transition: background-color 0.3s ease-in-out;
 }
 
-
-
 /* Footer Column 3 */
 
 #column-3 a {
-text-decoration: none;
-color: #FFF;
-line-height: 1.7em;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.7em;
 }
 
-#column-3 ul, h1 {
+#column-3 ul,
+h1 {
   list-style: none;
   color: gray;
-  font-size: 1.0em;
+  font-size: 1em;
 }
 
 #column-3 {
-  padding: 2.0em;
-  margin: 0.0em;
-  font-size: 2.0em;
-  padding-top: 1.0em;
+  padding: 2em;
+  margin: 0em;
+  font-size: 2em;
+  padding-top: 1em;
 }
 
 #column-3 a:hover {
+<<<<<<< HEAD
 color: #a096f8;
+=======
+  color: purple;
+>>>>>>> 632517124801de9f6c584360392e897622dab37a
 }
 
-
-.rights{
+.rights {
   text-align: center;
   color: #38546d;
   padding-bottom: 0.3em;
