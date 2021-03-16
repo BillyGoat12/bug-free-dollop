@@ -225,6 +225,7 @@ body {
 #blog-post {
   margin: 0 -5px;
   padding-left: 9.7em;
+  padding-bottom: 6.2em;
 }
 
 #blog-post:after {
@@ -249,6 +250,8 @@ body {
   text-align: center;
   background-color: #f1f1f1;
 }
+
+
 
 
 
