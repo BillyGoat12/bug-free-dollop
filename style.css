@@ -227,6 +227,12 @@ body {
   padding-left: 9.7em;
 }
 
+#blog-post:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
 #blog-post h2 {
  text-align: center;
  padding-bottom: 2.2em;
