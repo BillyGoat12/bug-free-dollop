@@ -4,17 +4,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-purple-color: #756aee;
+}
+
 body {
   background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Navbar */
 .navbar {
+  z-index: 100;
   display: flex;
   flex-flow: row;
   position: fixed;
   background-color: #ffffff;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  padding: 10px;
 }
 
 .header {
@@ -24,22 +36,27 @@ body {
 .navbar__rightLinks {
   text-decoration: none;
   color: #151515;
-  margin-left: 2vw;
+  margin-left: 3rem;
+  position: relative;
+  transition: all 500ms ease;
 }
 
-.navbar__rightLinks:hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
+.navbar__rightLinks:hover::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: -4px;
+  border: 2px solid var(--main-purple-color);
 }
 
 .navbar__right {
-  margin-top: 3vh;
-  margin-left: 14vw;
+  display: flex;
+  margin-right: 40px;
 }
 
 .icon {
-  margin-top: 3vh;
-  margin-left: 4vw;
+  margin-left: 40px;
 }
 
 .iconShare {
@@ -172,10 +189,12 @@ body {
 /* hero section */
 
 .background {
-  height: 550px;
+  height: 95vh;
   background-image: url(https://ld-wt73.template-help.com/wt_prod-18959/images/slider-1-slide-1-1770x742.jpg);
   background-size: cover;
   text-align: center;
+  display: grid;
+  place-content: center;
 }
 
 .backgroundH1 {
@@ -199,18 +218,160 @@ body {
 .button {
   margin-top: 2vh;
   color: #ffffff;
-  background-color: #756aee;
-  border-color: #756aee;
+  background-color: var(--main-purple-color);
+  border-color: 1px solid var(--main-purple-color);
   display: inline-block;
   min-width: 200px;
   padding: 17px 33px 15px;
   font-size: 16px;
   line-height: 1.34;
-  border: 2px solid;
   font-weight: 600;
   letter-spacing: 0.075em;
   cursor: pointer;
   text-decoration: none;
+}
+/* FEATURED */
+.featured {
+  padding: 70px 100px;
+  display: flex;
+  min-height: 70vh;
+}
+
+.featured__left,
+.featured__right {
+  flex: 1;
+}
+
+.featured__left {
+  display: flex;
+  justify-content: center;
+}
+
+.featured__left > img {
+  height: 100%;
+}
+
+.featured__right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured__rightBox {
+  min-height: 200px;
+  min-width: 290px;
+  max-width: 290px;
+  background-color: white;
+  margin: 20px;
+  -webkit-box-shadow: -2px 3px 43px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 3px 43px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 3px 43px -15px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.featured__rightBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.featured__rightBox .animatedLine {
+  width: 30%;
+  border-bottom: 2px solid lightgray;
+  transition: 300ms all ease-in;
+}
+
+.featured__rightBox:hover .animatedLine {
+  border-color: var(--main-purple-color);
+  width: 50%;
+}
+
+.featured__rightBox h1 {
+  font-size: 36px;
+  color: black;
+  font-weight: normal !important;
+}
+
+.featured__rightBoxTitle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.featured__rightBoxTitle > i {
+  font-size: 50px;
+  padding: 10px;
+  color: var(--main-purple-color);
+}
+
+.featured__rightBoxTitle > h3 {
+  font-weight: 500;
+}
+
+.featured__rightBoxContent {
+  margin-top: 10px;
+}
+
+/* MEET THE TEAM SECTION */
+.meetTheTeam {
+  margin: 50px 0;
+}
+
+.meetTheTeam__title {
+  display: flex;
+  justify-content: center;
+}
+
+.meetTheTeam__title h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.meetTheTeam_gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.meetTheTeam__galleryBox {
+  cursor: pointer;
+  width: 350px;
+  margin: 10px;
+  position: relative;
+  transition: 400ms all ease-in;
+}
+
+.meetTheTeam__galleryBox img {
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 300ms all ease-in;
+}
+
+.meetTheTeam__galleryBox:hover img {
+  filter: grayscale(0%);
+}
+
+.meetTheTeam__teamInfo {
+  position: absolute;
+  bottom: 10%;
+  width: 70%;
+  background: #9f9f9f8c;
+  padding: 20px;
+  transition: 300ms all ease-in;
+  color: white;
+}
+
+.meetTheTeam__teamInfo .meetTheTeam__name {
+  font-weight: 500;
+  font-size: 20px;
+  transition: 300ms all ease-in;
+}
+
+.meetTheTeam__galleryBox:hover .meetTheTeam__teamInfo {
+  width: 80%;
+  padding-left: 50px;
 }
 
 
