@@ -251,7 +251,14 @@ body {
   background-color: #f1f1f1;
 }
 
+.post-time {
+  
+}
 
+.post-month {
+  float: left;
+  font-size: 30px;
+}
 
 
 
