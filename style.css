@@ -412,13 +412,28 @@ body {
   background-color: #f1f1f1;
 }
 
-.post-time {
-  
+.post-number {
+  float: left;
+  font-size: 30px;
 }
 
 .post-month {
   float: left;
   font-size: 30px;
+}
+
+.post-title {
+  padding-bottom: 2.0em;
+  padding-top: 4.0em;
+  margin-right: 10.0em;
+  font-size: 20px;
+  
+  
+}
+
+.post-title a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 
