@@ -423,17 +423,22 @@ body {
 }
 
 .post-title {
-  padding-bottom: 2.0em;
-  padding-top: 4.0em;
+  padding-bottom: 1.0em;
+  padding-top: 3.0em;
   margin-right: 10.0em;
   font-size: 20px;
-  
-  
+  font-weight: bold;
 }
 
 .post-title a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
+}
+
+.post-text {
+text-align: justify;
+font-weight: lighter;
+color: gray;
 }
 
 
