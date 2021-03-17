@@ -311,6 +311,67 @@ body {
   margin-top: 10px;
 }
 
+/* MEET THE TEAM SECTION */
+.meetTheTeam {
+  margin: 50px 0;
+}
+
+.meetTheTeam__title {
+  display: flex;
+  justify-content: center;
+}
+
+.meetTheTeam__title h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.meetTheTeam_gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.meetTheTeam__galleryBox {
+  cursor: pointer;
+  width: 350px;
+  margin: 10px;
+  position: relative;
+  transition: 400ms all ease-in;
+}
+
+.meetTheTeam__galleryBox img {
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 300ms all ease-in;
+}
+
+.meetTheTeam__galleryBox:hover img {
+  filter: grayscale(0%);
+}
+
+.meetTheTeam__teamInfo {
+  position: absolute;
+  bottom: 10%;
+  width: 70%;
+  background: #9f9f9f8c;
+  padding: 20px;
+  transition: 300ms all ease-in;
+  color: white;
+}
+
+.meetTheTeam__teamInfo .meetTheTeam__name {
+  font-weight: 500;
+  font-size: 20px;
+  transition: 300ms all ease-in;
+}
+
+.meetTheTeam__galleryBox:hover .meetTheTeam__teamInfo {
+  width: 80%;
+  padding-left: 50px;
+}
+
 /* -----------Footer       */
 
 footer {
