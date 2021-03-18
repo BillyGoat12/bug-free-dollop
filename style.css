@@ -379,7 +379,7 @@ body {
 
 .container {
   float: left;
-  width: 35%;
+  width: 32%;
   padding: 0 10px;
 }
 
@@ -397,9 +397,9 @@ body {
 
 #blog-post h2 {
  text-align: center;
- padding-bottom: 2.2em;
+ padding-bottom: 1.2em;
  padding-top: 2.2em;
- font-weight: bold;
+ font-weight: normal;
  font-size: 2.9em;
 }
 
@@ -424,9 +424,9 @@ body {
 
 .post-title {
   padding-bottom: 1.0em;
-  padding-top: 3.0em;
+  padding-top: 3.0rem;
   margin-right: 10.0em;
-  font-size: 20px;
+  font-size: 1.0rem;
   font-weight: bold;
 }
 
