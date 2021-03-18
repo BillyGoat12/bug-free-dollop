@@ -381,6 +381,7 @@ body {
 #people {
 padding-bottom: 15%;
 padding-left: 1%;
+margin: 0 5px;
 }
 
 #people h2 {
@@ -394,7 +395,7 @@ font-weight: normal;
 .people-container {
   float: left;
   width: 30%;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
 .people-card {
@@ -424,10 +425,9 @@ font-weight: normal;
 }
 
 .people-title {
-  padding-left: 24%;
+  padding-left: 26%;
   position: relative; top:-30px;
   color: #756aee;
-  
 }
 
 
