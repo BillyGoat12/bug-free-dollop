@@ -400,9 +400,9 @@ font-weight: normal;
 
 .people-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 17px;
   text-align: justify;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .people-card h4 {
@@ -457,6 +457,7 @@ font-weight: normal;
  padding-top: 2.2em;
  font-weight: normal;
  font-size: 2.9em;
+ margin-right: 8%;
 }
 
 
@@ -465,7 +466,7 @@ font-weight: normal;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .post-number {
