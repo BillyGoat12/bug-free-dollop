@@ -375,6 +375,59 @@ body {
 }
 
 
+/* Get More */
+
+#get-more {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+.get-wrap h2 {
+  margin-bottom: 2%;
+  font-size: 45px;
+}
+
+.get-nav-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-line {
+  border-bottom: 4px solid lightgray;
+  width: 34%;
+  position: relative;top: -19px;
+}
+
+.nav-item {
+  display: inline;
+  margin: 1%;
+  padding: 8px;
+  position: relative; top: -20px;
+  font-size: 2.0em;
+  padding-right: 60px;
+  color: gray;
+  font-weight: normal; 
+  overflow: hidden;
+}
+
+.nav-item a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item a:hover {
+  color: #756aee;
+}
+
+.nav-item a:active {
+  border-bottom: 3px solid #756aee;
+}
+
+
+
+
 
 /* What People Say */
 
