@@ -380,7 +380,13 @@ body {
 #get-more {
   padding-left: 10%;
   padding-top: 5%;
-  padding-bottom: 7%;
+  margin-bottom: -14em;
+}
+
+#get-more:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .get-wrap h2 {
@@ -423,6 +429,41 @@ body {
 
 .nav-item a:active {
   border-bottom: 3px solid #756aee;
+}
+
+.tab h5 {
+font-size: 20px;
+font-weight: lighter;
+padding-bottom: 1%;
+}
+
+.nav-btn {
+  border-style: solid;
+  padding: 1em 3em;
+  position: relative;bottom: -70px;
+  text-decoration: none;
+  color: white;
+  background-color: #756aee;
+}
+
+.nav-btn-2 {
+  position: relative;bottom: -170px;
+  position: relative;right: 198px;
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  padding: 1em 2em;
+}
+
+
+
+
+.get-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2 80px;
+  position: relative;right: -600px;
+  position: relative;top: -328px;
 }
 
 
