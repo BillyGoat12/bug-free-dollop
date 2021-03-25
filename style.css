@@ -319,6 +319,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   position: relative;left: 100px;
+  margin-bottom: -680px;
 }
 
 .num {
@@ -364,6 +365,39 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.grid {
+  grid-template-columns: 100px 100px;
+  grid-template-rows: auto auto ; 
+  column-gap: 10px;
+  row-gap: 15px;
+  position: relative;right: -30em;
+  position: relative;top: -20em;
+}
+
+.grid span{
+  font-size: 7em;
+}
+
+.grid h6{
+  font-size: 1em;
+  position: relative;top: -2em;
+}
+
+.grid-column {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-column-3 {
+  position: relative;right: -14em;
+  position: relative;top: -24em;
+}
+
+.grid-column-4 {
+  position: relative;top: -24em;
+  position: relative;right: -14em;
 }
 
 
