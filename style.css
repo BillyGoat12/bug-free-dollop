@@ -400,8 +400,11 @@ body {
   position: relative;right: -14em;
 }
 
-.images {
-  
+.image-clients {
+  padding: 4em;
+  position: relative;left: 5em;
+  justify-content: space-between;
+
 }
 
 
