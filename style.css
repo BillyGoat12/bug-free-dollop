@@ -409,7 +409,7 @@ position: relative;right: -36em;
   column-gap: 10px;
   row-gap: 15px;
   position: relative;right: -30em;
-  position: relative;top: -20em;
+  position: relative;top: -18em;
 }
 
 .grid span{
@@ -436,6 +436,9 @@ position: relative;right: -36em;
   position: relative;right: -14em;
 }
 
+
+/* Latest Projects */
+
 .image-clients {
   padding: 4em;
   position: relative;left: 5em;
@@ -453,7 +456,8 @@ position: relative;right: -36em;
 .client-box :hover {
   cursor: pointer;
   border: 2px solid #777;
-  transition: 9.ms;
+  transition-delay: 2ms;
+  transition-duration: initial;
   background: white none repeat scroll 0 0;
    color: #fff;
    margin:10px 5px;
