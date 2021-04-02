@@ -337,14 +337,15 @@ position: relative;right: -36em;
 }
 
 .projects-image img{
-  width: 200px;
-  height: 200px;
+  width: 20em;
+  height: 20em;
 }
 
 .projects-image {
   display: row;
   padding-left: 7em;
   margin: 4px;
+  padding-bottom: 9em;
 }
 
 /* Experience Section */
@@ -372,7 +373,7 @@ position: relative;right: -36em;
   font-size: 30px;
   text-align: justify;
   font-weight: bold;
-  position: relative;right: -20px;
+  position: relative;right: -90px;
   
 }
 
@@ -382,9 +383,10 @@ position: relative;right: -36em;
 }
 
 .v1 {
-  border-left: 3px solid lightslategray;
+  border-left: 4px solid lightslategray;
   height: 90px;
   position: relative;bottom: -5.3em;
+  position: relative;left: -9px;
 }
 
 .exp-btn {
@@ -438,8 +440,28 @@ position: relative;right: -36em;
   padding: 4em;
   position: relative;left: 5em;
   justify-content: space-between;
-
 }
+
+.client-box {
+  display: inline-flex;
+  border: solid gray;
+  margin: 15px;
+  color: lightslategray;
+  font-weight: lighter;
+}
+
+.client-box :hover {
+  cursor: pointer;
+  border: 2px solid #777;
+  transition: 9.ms;
+  background: white none repeat scroll 0 0;
+   color: #fff;
+   margin:10px 5px;
+   padding: 5px 5px;
+   display: inline-block;
+}
+
+
 
 
 
