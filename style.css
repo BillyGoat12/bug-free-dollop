@@ -443,6 +443,7 @@ position: relative;right: -36em;
   padding: 4em;
   position: relative;left: 5em;
   justify-content: space-between;
+  
 }
 
 .client-box {
@@ -456,7 +457,6 @@ position: relative;right: -36em;
 .client-box :hover {
   cursor: pointer;
   border: 2px solid #777;
-  transition-delay: 2ms;
   transition-duration: initial;
   background: white none repeat scroll 0 0;
    color: #fff;
